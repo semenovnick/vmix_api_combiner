@@ -1,0 +1,22 @@
+{
+  "name": "vmix_api_combiner",
+  "version": "1.0.0",
+  "description": "This app will combine several instances of vmix and act as one vmix instance. If command is sent app redirect it accordingly",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx nodemon",
+    "build": "rimraf ./build && npx tsc"
+  },
+  "author": "Semenov Nick",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/uuid": "^9.0.8",
+    "nodemon": "^3.0.3",
+    "rimraf": "^5.0.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "type": "module"
+}
